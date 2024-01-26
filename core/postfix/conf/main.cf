@@ -4,7 +4,7 @@
 
 # Main domain and hostname
 mydomain = {{ DOMAIN }}
-myhostname = {{ HOSTNAMES.split(",")[0] }}
+myhostname = {{ NODEHOST }}
 myorigin = $mydomain
 maillog_file = /dev/stdout
 
